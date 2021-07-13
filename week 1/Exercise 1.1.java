@@ -6,11 +6,14 @@ Scanner s = new Scanner(System.in);
        double radius= s.nextDouble();
        double perimeter;
        double area;
-//Calculate the perimeter 
-	  perimeter =2*Math.PI*radius;
-	  System.out.println(perimeter);
-//Calculate the area
-    area=Math.PI*radius*radius;
-    System.out.println(area);
+	//Calculate the perimeter 
+	       
+	perimeter = 2 * Math.PI * radius;
+	System.out.println(perimeter);
+	       
+	//Calculate the area
+	       
+    	area = Math.PI * radius * radius;
+    	System.out.println(area);
        }
 }
