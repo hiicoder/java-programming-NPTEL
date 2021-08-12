@@ -20,11 +20,13 @@ public class Question21{
       
       
 //-----------------------------------------------------------------------      
-// Create an object of class Student
-Student stud = new Student();
-// Call 'print()' method of class Student 
-stud.print();
-// Create an object of class School
-School sch = new School();
-// Call 'print()' method of class School
-sch.print();
+	// Create an object of class Student
+	Student stud = new Student();
+	// Call 'print()' method of class Student 
+	stud.print();
+	// Create an object of class School
+	School sch = new School();
+	// Call 'print()' method of class School
+	sch.print();
+     } 
+}
