@@ -1,4 +1,4 @@
-//Q.2 call print() method of class Question by creating a method named ‘studentMethod()
+//Q.3 call print() method of class Question by creating a method named ‘studentMethod()
 
 // This is the main class Question
 public class Question23{ 
@@ -15,9 +15,9 @@ public class Question23{
 	}
 //-----------------------------------------
   // Define a method named 'studentMethod()' in class Question
-void studentMethod()
+	void studentMethod()
 // Call the method named 'print()' in class Question   
-{Question23 q = new Question23();
-		q.print(q);
+	{Question23 q = new Question23();
+	q.print(q);
   }
 }
