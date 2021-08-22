@@ -14,15 +14,14 @@ System.out.println(fib(n)); //Generate and print the n-th Fibonacci
 static int fib(int n) {
   //------------------------------------------------------------------------------------------
   //complete the code segment to find the nth Fibonacci number in the Fibonacci sequence and return the value. Write the function recursively.
-int num =0;
-int num2 = 1;
-int num3 = 1;
+int first =0;
+int second = 1;
 //System.out.print(num+","+num2);
-for(int i = 2;i<n;i++){
-	num3 = num+num2;	
-  num = num2;
-  num2 = num3;
+for(int i = 1;i<n;i++){
+int third = first+second;	
+  first = second;
+  second = third;
 } 
-return (num3);
+return (first);
 }
 }
